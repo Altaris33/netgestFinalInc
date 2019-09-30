@@ -1,0 +1,3 @@
+
+org.springframework.dao.EmptyResultDataAccessException:
+ No class com.epsi.udev.catouweb.database.entities.ClientEntity entity with id 12 exists!

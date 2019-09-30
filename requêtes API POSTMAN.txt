@@ -1,0 +1,66 @@
+Ajout Matériel:
+
+{
+    "id": 12,
+    "libelle": "Arduino Mega 23",
+    "typeMateriel": {
+        "id": 4
+    },
+    "interfaces": [
+        {
+            "id": 14,
+            "nom": "eth0",
+            "mac": "01:66:66:02:66",
+            "typeInterface": {
+                "id": 1
+            },
+            "adresseIp": {
+                "id": 14,
+                "ipV4": "192.168.187.145",
+                "masque": "255.255.255.0",
+                "typeAffectation": {
+                    "id": 1
+                }
+            }
+        }
+    ]
+}
+
+Create Client
+
+{
+  "nom": "CORPORATION666",
+  "adresse1": "152 Avenue Jean-JaurÃ¨s",
+  "idcpville": 1,
+  "materiels": [
+    {
+      "libelle": "Arduino Mega 2",
+      "typeMateriel": {
+        "id" : 4
+      },
+      "interfaces": [
+        {
+          "nom": "eth0",
+          "mac": "01:66:66:02:04",
+          "typeInterface": {
+            "id":1
+          },
+          "adresseIp": {
+            "ipV4": "192.168.187.255",
+            "masque": "255.255.255.0",
+            "typeAffectation": {
+              "id": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+
+Delete Matériel
+
+Delete Client 
+
+Sélectionner l'ID dans le barre d'adresse spécifié par le ClientController.java sur l'application Java Spring.
+
